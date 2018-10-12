@@ -9,6 +9,10 @@ import model.Game;
 import model.Map;
 import model.Player;
 import model.Storehouse;
+import model.Animal;
+import model.Author;
+import model.Provision;
+import model.InventoryItem;
 
 public class CityOfAaron {
 
