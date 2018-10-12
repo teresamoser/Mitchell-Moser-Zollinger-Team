@@ -4,11 +4,18 @@
  */
 
 package app;
-
+/**
+ *
+ * @authors Amber Mitchell, Teresa Moser, Amy Zollinger
+ */
 import model.Game;
 import model.Map;
 import model.Player;
 import model.Storehouse;
+import model.Author;
+import model.InventoryItem;
+import model.ItemType;
+import model.Condition;
 
 public class CityOfAaron {
 
@@ -30,6 +37,37 @@ public class CityOfAaron {
         
         System.out.println(theGame.toString());
 
-    }
 
+        // AMBER TESTS
+        System.out.println(Author.Amber.toString());
+        InventoryItem theItem = new InventoryItem();
+        theItem.setName("Shovel");
+        theItem.setType(ItemType.Tool);
+        theItem.setQuantity(46);
+        theItem.setCondition(Condition.Good);
+        System.out.println(theItem.toString());
+        // END AMBER TESTS
+        
+    }   
 }
+
+
+////////////////////////////////////////
+// NOTES //////////////////////////////
+///////////////////////////////////////
+//(for array classes -- in their class defs)
+//import java.util.Arrays; 
+// @Override
+//    public String toString() {
+//          return "ClassName { "
+//          + ", variable = " + Arrays.toString(variable)  
+//          + " }";
+//          }
+//
+//Then when you go to you main you can call it like this:
+//
+//ClassName theVariable = new ClassName();
+//
+//theVariable.setVarriable(new String[] {
+//"Tip 1", "Tip 2", "Tip 3"
+//});
