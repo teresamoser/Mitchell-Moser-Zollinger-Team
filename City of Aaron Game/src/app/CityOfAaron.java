@@ -48,13 +48,12 @@ public class CityOfAaron {
         animals.add("Cow");
         theStorehouse.setAnimals(animals);
       
-      //Provisions
-               
-               
-       
+        Provision theProvision = new Provision();
         
-        
-        
+        ArrayList<String> provisions = new ArrayList<String>();
+        provisions.add("Hay");
+        theStorehouse.setProvisions(provisions);
+         
        System.out.println(theStorehouse.toString());
         
         
