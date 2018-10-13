@@ -13,7 +13,7 @@ import java.util.Arrays;
  */
 public class Storehouse implements Serializable{
     private Author[] authors = new Author[3];
-    private ArrayList<Animal> animals = new ArrayList<>();
+    private ArrayList<String> animals = new ArrayList<>();
     private ArrayList<InventoryItem> tools = new ArrayList<>();
     private ArrayList<Provision> provisions = new ArrayList<>();
     
@@ -25,11 +25,11 @@ public class Storehouse implements Serializable{
         return authors;
     }
 
-    public ArrayList<Animal> getAnimals() {
+    public ArrayList<String> getAnimals() {
         return animals;
     }
 
-    public void setAnimals(ArrayList<Animal> animals) {
+    public void setAnimals(ArrayList<String> animals) {
         this.animals = animals;
     }
 

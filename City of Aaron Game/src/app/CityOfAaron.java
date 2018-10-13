@@ -5,6 +5,7 @@
 
 package app;
 
+import java.util.*;
 import model.Game;
 import model.Map;
 import model.Player;
@@ -27,12 +28,31 @@ public class CityOfAaron {
         Game theGame = new Game();
         theGame.setThePlayer(new Player());
         theGame.setTheMap(new Map());
-        theGame.setTheStorehouse(new Storehouse());
+        //theGame.setTheStorehouse(new Storehouse());
         theGame.setCurrentPopulation(105);
         theGame.setAcresOwned(2000);
         theGame.setWheatInStorage(3000);
         
-        System.out.println(theGame.toString());
+       System.out.println(theGame.toString());
+       //end of game test
+       
+        //Amy Test
+        Storehouse theStorehouse = new Storehouse();
+        
+        ArrayList<String> animals = new ArrayList<String>();
+        animals.add("Cow");
+        theStorehouse.setAnimals(animals);
+      
+      //Provisions
+               
+               
+       
+        
+        
+        
+       System.out.println(theStorehouse.toString());
+        
+        
 
     }
 

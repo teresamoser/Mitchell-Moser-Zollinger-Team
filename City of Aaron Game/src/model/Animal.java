@@ -33,9 +33,7 @@ public class Animal implements Serializable{
         this.age = age;
     }
 
-    
-
-    
+   
      // toString method
     @Override
     public String toString() {
